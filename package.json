@@ -1,0 +1,25 @@
+{
+	"name": "slearning",
+	"version": "1.0.0",
+	"scripts": {
+		"start": "node src/server/server.js",
+		"server": "nodemon src/server/server.js",
+		"client-install": "npm install --prefix src/client",
+		"client": "npm start --prefix src/client",
+		"dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\""
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Khang-Tran/slearning.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Khang-Tran/slearning/issues"
+	},
+	"homepage": "https://github.com/Khang-Tran/slearning#readme",
+	"devDependencies": {
+		"concurrently": "^4.0.0",
+		"nodemon": "^1.18.3"
+	}
+}
