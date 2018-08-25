@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptLibraryMappings">
+    <file url="file://$PROJECT_DIR$" libraries="{slearning/node_modules}" />
+    <file url="file://$PROJECT_DIR$/src/client" libraries="{slearning/src/client/node_modules}" />
+    <file url="file://$PROJECT_DIR$/src/server" libraries="{slearning/src/server/node_modules}" />
+    <file url="PROJECT" libraries="{@types/enzyme, @types/express, @types/material-ui, @types/mongoose, @types/passport, @types/prop-types, @types/react, @types/react-dom, slearning/node_modules, slearning/src/client/node_modules, slearning/src/server/node_modules}" />
+  </component>
+</project>
