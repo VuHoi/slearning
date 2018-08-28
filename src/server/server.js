@@ -22,8 +22,8 @@ app.use(cookieParser());
 app.all('/*', configRoute);
 app.all('/api/*', [validateRequest]);
 
-
-
+userController(app);
+homeController(app);
 app.use(function(req, res, next) {
     next(createError(404));
   });
